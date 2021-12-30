@@ -1,0 +1,34 @@
+h2,p(
+    text-align: center
+    text transform: uppercase
+)
+
+
+
+
+
+
+
+
+
+
+
+
+<title>composattaque<title>
+
+
+
+
+
+<h2> composition d attaque<h2>
+
+<p>compos d attaque hdv2<p>
+
+
+
+
+
+
+
+
+
