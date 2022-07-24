@@ -99,11 +99,27 @@ nav a:hover{
 <h1>Roi Des Barbares</h1>
 
 
+<a onclick="openPose()">Pose</a>
+<a onclick="openIdle()">Idle</a>
+
+<script>
+
+function openPose(){
+  document.getElementById("linePose").style.display="block";
+  document.getElementById("lineIdle").style.display="none";
+}
+function openIdle(){
+  document.getElementById("lineIdle").style.display="block";
+  document.getElementById("linePose").style.display="none";
+}
+
+
+</script>
 
 
 <table>
 
-<tr>
+<tr id="linePose">
 
 <td><img src="https://static.wikia.nocookie.net/clashofclans/images/1/14/Barbarian_King_3D.png/revision/latest/scale-to-width-down/120?cb=20210501091645"></td>
 <td><img src="https://static.wikia.nocookie.net/clashofclans/images/5/57/Gladiator_King_3D.png/revision/latest/scale-to-width-down/120?cb=20210501091725"></td>
@@ -111,1283 +127,1725 @@ nav a:hover{
 <td><img src="https://static.wikia.nocookie.net/clashofclans/images/9/93/Skeleton_King_3D.png/revision/latest/scale-to-width-down/130?cb=20210501091844"></td>
 
 </tr>
+<tr id="lineIdle">
 
+<td><img src="https://static.wikia.nocookie.net/clashofclans/images/b/ba/Barbarian_King_3D_pose.png/revision/latest/scale-to-width-down/110?cb=20210501092544"></td>
+<td><img src=""></td>
+<td><img src=""></td>
+<td><img src=""></td>
+
+
+<script>
+  openPose()
+</script>
+
+
+</tr>
 
 </table>
 
-<table>
-
-<th class="th" colspan="10">Roi Des Barbares</th>  
-<tr>
-<th class="th">Niveau</th>    
-<th class="th"><p>Dégats Par Coup</p><img src="https://static.wikia.nocookie.net/clashofclans/images/6/6a/Damage.png/revision/latest?cb=20210420071808" alt="img"></th>    
-<th class="th"><p>Dégats Par Seconde</p><img src="https://static.wikia.nocookie.net/clashofclans/images/6/6a/Damage.png/revision/latest?cb=20210420071808" alt="img"></th>    
-<th class="th"><p>DPS Avec La Poigne De Fer</p><img src="https://static.wikia.nocookie.net/clashofclans/images/6/6a/Damage.png/revision/latest?cb=20210420071808" alt="img"></th>    
-<th class="th"><p>Points De Vie</p><img src="https://static.wikia.nocookie.net/clashofclans/images/e/ed/Hitpoint.png/revision/latest?cb=20130720035123" alt="img"/></th>    
-<th class="th">Temps de Régénération</th>    
-<th class="th">Niveau De Poigne De Fer</th>    
-<th class="th">Cout D'Amélioration</th>    
-<th class="th">Temps D'Amélioration</th>    
-<th class="th">Niveau D'Hotel De Ville Requis</th>    
-
-
-</tr>
-
-<tr>
-  <td>1</td>
-  <td>120</td>
-  <td>144</td>
-  <td>N/A</td>
-  <td>1700</td>
-  <td>10 mins</td>
-  <td>N/A</td>
-  <td>5000</td>
-  <td>N/A</td>
-  <td>7</td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-<tr>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-  <td class="td"></td>
-</tr>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</table>
+<table class="wikitable" border="0" cellpadding="1" cellspacing="1" style="text-align: center">
+  <tbody><tr>
+  <th scope="col" style="text-align: center;">Niveau
+  </th>
+  <th scope="col" style="text-align: center;">Dégâts par seconde <a href="https://static.wikia.nocookie.net/clashofclans/images/6/6a/Damage.png/revision/latest?cb=20210420071808" class="image" title="Dégâts"><img alt="Dégâts" src="https://static.wikia.nocookie.net/clashofclans/images/6/6a/Damage.png/revision/latest/scale-to-width-down/28?cb=20210420071808" decoding="async" width="28" height="27" data-image-name="Damage.png" data-image-key="Damage.png" data-src="https://static.wikia.nocookie.net/clashofclans/images/6/6a/Damage.png/revision/latest/scale-to-width-down/28?cb=20210420071808" class=" lazyloaded"></a>
+  </th>
+  <th scope="col" style="text-align: center;">Dégâts par coup <a href="https://static.wikia.nocookie.net/clashofclans/images/6/6a/Damage.png/revision/latest?cb=20210420071808" class="image" title="Dégâts"><img alt="Dégâts" src="https://static.wikia.nocookie.net/clashofclans/images/6/6a/Damage.png/revision/latest/scale-to-width-down/28?cb=20210420071808" decoding="async" width="28" height="27" data-image-name="Damage.png" data-image-key="Damage.png" data-src="https://static.wikia.nocookie.net/clashofclans/images/6/6a/Damage.png/revision/latest/scale-to-width-down/28?cb=20210420071808" class=" lazyloaded"></a>
+  </th>
+  <th scope="col" style="text-align: center;">DPS avec la poigne de fer <a href="https://static.wikia.nocookie.net/clashofclans/images/6/6a/Damage.png/revision/latest?cb=20210420071808" class="image" title="Dégâts"><img alt="Dégâts" src="https://static.wikia.nocookie.net/clashofclans/images/6/6a/Damage.png/revision/latest/scale-to-width-down/28?cb=20210420071808" decoding="async" width="28" height="27" data-image-name="Damage.png" data-image-key="Damage.png" data-src="https://static.wikia.nocookie.net/clashofclans/images/6/6a/Damage.png/revision/latest/scale-to-width-down/28?cb=20210420071808" class=" lazyloaded"></a>
+  </th>
+  <th scope="col" style="text-align: center;">Points de vie <a href="https://static.wikia.nocookie.net/clashofclans/images/e/ed/Hitpoint.png/revision/latest?cb=20130720035123" class="image" title="PV"><img alt="PV" src="https://static.wikia.nocookie.net/clashofclans/images/e/ed/Hitpoint.png/revision/latest/scale-to-width-down/20?cb=20130720035123" decoding="async" width="20" height="19" data-image-name="Hitpoint.png" data-image-key="Hitpoint.png" data-src="https://static.wikia.nocookie.net/clashofclans/images/e/ed/Hitpoint.png/revision/latest/scale-to-width-down/20?cb=20130720035123" class=" lazyloaded"></a>
+  </th>
+  <th scope="col" style="text-align: center;">Temps de régénération
+  </th>
+  <th scope="col" style="text-align: center;">Niveau de poigne de fer
+  </th>
+  <th scope="col" style="text-align: center;">Coût de formation <a href="https://static.wikia.nocookie.net/clashofclans/images/3/3b/Dark_elixir.png/revision/latest?cb=20180730003314&amp;path-prefix=fr" class="image" title="Élixir noir"><img alt="Élixir noir" src="https://static.wikia.nocookie.net/clashofclans/images/3/3b/Dark_elixir.png/revision/latest/scale-to-width-down/18?cb=20180730003314&amp;path-prefix=fr" decoding="async" width="18" height="21" data-image-name="Dark elixir.png" data-image-key="Dark_elixir.png" data-src="https://static.wikia.nocookie.net/clashofclans/images/3/3b/Dark_elixir.png/revision/latest/scale-to-width-down/18?cb=20180730003314&amp;path-prefix=fr" class=" lazyloaded"></a>
+  </th>
+  <th scope="col" style="text-align: center;">Temps de recherche
+  </th>
+  <th scope="col" style="text-align: center;">Niveau d'<a href="/fr/wiki/H%C3%B4tel_de_ville" title="Hôtel de ville">Hôtel de ville</a> requis
+  </th></tr>
+  <tr>
+  <th>1
+  </th>
+  <td>120
+  </td>
+  <td>144
+  </td>
+  <td>N/A
+  </td>
+  <td>1.700
+  </td>
+  <td>10 mins
+  </td>
+  <td>N/A
+  </td>
+  <td>5.000
+  </td>
+  <td>N/A
+  </td>
+  <td>7<a href="https://static.wikia.nocookie.net/clashofclans/images/b/bf/H%C3%B4tel_de_ville_niv7.png/revision/latest?cb=20170529110433&amp;path-prefix=fr" class="image" title="HDV7"><img alt="HDV7" src="https://static.wikia.nocookie.net/clashofclans/images/b/bf/H%C3%B4tel_de_ville_niv7.png/revision/latest/scale-to-width-down/30?cb=20170529110433&amp;path-prefix=fr" decoding="async" width="30" height="26" data-image-name="Hôtel de ville niv7.png" data-image-key="H%C3%B4tel_de_ville_niv7.png" data-src="https://static.wikia.nocookie.net/clashofclans/images/b/bf/H%C3%B4tel_de_ville_niv7.png/revision/latest/scale-to-width-down/30?cb=20170529110433&amp;path-prefix=fr" class=" lazyloaded"></a>
+  </td></tr>
+  <tr>
+  <th>2
+  </th>
+  <td>122
+  </td>
+  <td>146,4
+  </td>
+  <td>N/A
+  </td>
+  <td>1.742
+  </td>
+  <td>10 mins
+  </td>
+  <td>N/A
+  </td>
+  <td>6.000
+  </td>
+  <td>4 h
+  </td>
+  <td>7<a href="https://static.wikia.nocookie.net/clashofclans/images/b/bf/H%C3%B4tel_de_ville_niv7.png/revision/latest?cb=20170529110433&amp;path-prefix=fr" class="image" title="HDV7"><img alt="HDV7" src="https://static.wikia.nocookie.net/clashofclans/images/b/bf/H%C3%B4tel_de_ville_niv7.png/revision/latest/scale-to-width-down/30?cb=20170529110433&amp;path-prefix=fr" decoding="async" width="30" height="26" data-image-name="Hôtel de ville niv7.png" data-image-key="H%C3%B4tel_de_ville_niv7.png" data-src="https://static.wikia.nocookie.net/clashofclans/images/b/bf/H%C3%B4tel_de_ville_niv7.png/revision/latest/scale-to-width-down/30?cb=20170529110433&amp;path-prefix=fr" class=" lazyloaded"></a>
+  </td></tr>
+  <tr>
+  <th>3
+  </th>
+  <td>124
+  </td>
+  <td>148,8
+  </td>
+  <td>N/A
+  </td>
+  <td>1.786
+  </td>
+  <td>10 mins
+  </td>
+  <td>N/A
+  </td>
+  <td>7.000
+  </td>
+  <td>6 h
+  </td>
+  <td>7<a href="https://static.wikia.nocookie.net/clashofclans/images/b/bf/H%C3%B4tel_de_ville_niv7.png/revision/latest?cb=20170529110433&amp;path-prefix=fr" class="image" title="HDV7"><img alt="HDV7" src="https://static.wikia.nocookie.net/clashofclans/images/b/bf/H%C3%B4tel_de_ville_niv7.png/revision/latest/scale-to-width-down/30?cb=20170529110433&amp;path-prefix=fr" decoding="async" width="30" height="26" data-image-name="Hôtel de ville niv7.png" data-image-key="H%C3%B4tel_de_ville_niv7.png" data-src="https://static.wikia.nocookie.net/clashofclans/images/b/bf/H%C3%B4tel_de_ville_niv7.png/revision/latest/scale-to-width-down/30?cb=20170529110433&amp;path-prefix=fr" class=" lazyloaded"></a>
+  </td></tr>
+  <tr>
+  <th>4
+  </th>
+  <td>127
+  </td>
+  <td>152,4
+  </td>
+  <td>N/A
+  </td>
+  <td>1.830
+  </td>
+  <td>10 mins
+  </td>
+  <td>N/A
+  </td>
+  <td>8.000
+  </td>
+  <td>8 h
+  </td>
+  <td>7<a href="https://static.wikia.nocookie.net/clashofclans/images/b/bf/H%C3%B4tel_de_ville_niv7.png/revision/latest?cb=20170529110433&amp;path-prefix=fr" class="image" title="HDV7"><img alt="HDV7" src="https://static.wikia.nocookie.net/clashofclans/images/b/bf/H%C3%B4tel_de_ville_niv7.png/revision/latest/scale-to-width-down/30?cb=20170529110433&amp;path-prefix=fr" decoding="async" width="30" height="26" data-image-name="Hôtel de ville niv7.png" data-image-key="H%C3%B4tel_de_ville_niv7.png" data-src="https://static.wikia.nocookie.net/clashofclans/images/b/bf/H%C3%B4tel_de_ville_niv7.png/revision/latest/scale-to-width-down/30?cb=20170529110433&amp;path-prefix=fr" class=" ls-is-cached lazyloaded"></a>
+  </td></tr>
+  <tr>
+  <th>5
+  </th>
+  <td>129
+  </td>
+  <td>154,8
+  </td>
+  <td>185
+  </td>
+  <td>1.876
+  </td>
+  <td>12 mins
+  </td>
+  <td>1
+  </td>
+  <td>10.000
+  </td>
+  <td>10 h&nbsp;
+  </td>
+  <td>7<a href="https://static.wikia.nocookie.net/clashofclans/images/b/bf/H%C3%B4tel_de_ville_niv7.png/revision/latest?cb=20170529110433&amp;path-prefix=fr" class="image" title="HDV7"><img alt="HDV7" src="https://static.wikia.nocookie.net/clashofclans/images/b/bf/H%C3%B4tel_de_ville_niv7.png/revision/latest/scale-to-width-down/30?cb=20170529110433&amp;path-prefix=fr" decoding="async" width="30" height="26" data-image-name="Hôtel de ville niv7.png" data-image-key="H%C3%B4tel_de_ville_niv7.png" data-src="https://static.wikia.nocookie.net/clashofclans/images/b/bf/H%C3%B4tel_de_ville_niv7.png/revision/latest/scale-to-width-down/30?cb=20170529110433&amp;path-prefix=fr" class=" ls-is-cached lazyloaded"></a>
+  </td></tr>
+  <tr>
+  <th>6
+  </th>
+  <td>132
+  </td>
+  <td>158,4
+  </td>
+  <td>188
+  </td>
+  <td>1.923
+  </td>
+  <td>12 mins
+  </td>
+  <td>1
+  </td>
+  <td>11.000
+  </td>
+  <td>12 h
+  </td>
+  <td>8<a href="https://static.wikia.nocookie.net/clashofclans/images/1/1d/H%C3%B4tel_de_ville_niv8.png/revision/latest?cb=20170529110433&amp;path-prefix=fr" class="image" title="HDV8"><img alt="HDV8" src="https://static.wikia.nocookie.net/clashofclans/images/1/1d/H%C3%B4tel_de_ville_niv8.png/revision/latest/scale-to-width-down/30?cb=20170529110433&amp;path-prefix=fr" decoding="async" width="30" height="28" data-image-name="Hôtel de ville niv8.png" data-image-key="H%C3%B4tel_de_ville_niv8.png" data-src="https://static.wikia.nocookie.net/clashofclans/images/1/1d/H%C3%B4tel_de_ville_niv8.png/revision/latest/scale-to-width-down/30?cb=20170529110433&amp;path-prefix=fr" class=" lazyloaded"></a>
+  </td></tr>
+  <tr>
+  <th>7
+  </th>
+  <td>135
+  </td>
+  <td>162
+  </td>
+  <td>191
+  </td>
+  <td>1.971
+  </td>
+  <td>12 mins
+  </td>
+  <td>1
+  </td>
+  <td>12.000
+  </td>
+  <td>14 h
+  </td>
+  <td>8<a href="https://static.wikia.nocookie.net/clashofclans/images/1/1d/H%C3%B4tel_de_ville_niv8.png/revision/latest?cb=20170529110433&amp;path-prefix=fr" class="image" title="HDV8"><img alt="HDV8" src="https://static.wikia.nocookie.net/clashofclans/images/1/1d/H%C3%B4tel_de_ville_niv8.png/revision/latest/scale-to-width-down/30?cb=20170529110433&amp;path-prefix=fr" decoding="async" width="30" height="28" data-image-name="Hôtel de ville niv8.png" data-image-key="H%C3%B4tel_de_ville_niv8.png" data-src="https://static.wikia.nocookie.net/clashofclans/images/1/1d/H%C3%B4tel_de_ville_niv8.png/revision/latest/scale-to-width-down/30?cb=20170529110433&amp;path-prefix=fr" class=" ls-is-cached lazyloaded"></a>
+  </td></tr>
+  <tr>
+  <th>8
+  </th>
+  <td>137
+  </td>
+  <td>164,4
+  </td>
+  <td>193
+  </td>
+  <td>2.020
+  </td>
+  <td>12 mins
+  </td>
+  <td>1
+  </td>
+  <td>13.000
+  </td>
+  <td>16 h
+  </td>
+  <td>8<a href="https://static.wikia.nocookie.net/clashofclans/images/1/1d/H%C3%B4tel_de_ville_niv8.png/revision/latest?cb=20170529110433&amp;path-prefix=fr" class="image" title="HDV8"><img alt="HDV8" src="https://static.wikia.nocookie.net/clashofclans/images/1/1d/H%C3%B4tel_de_ville_niv8.png/revision/latest/scale-to-width-down/30?cb=20170529110433&amp;path-prefix=fr" decoding="async" width="30" height="28" data-image-name="Hôtel de ville niv8.png" data-image-key="H%C3%B4tel_de_ville_niv8.png" data-src="https://static.wikia.nocookie.net/clashofclans/images/1/1d/H%C3%B4tel_de_ville_niv8.png/revision/latest/scale-to-width-down/30?cb=20170529110433&amp;path-prefix=fr" class=" ls-is-cached lazyloaded"></a>
+  </td></tr>
+  <tr>
+  <th>9
+  </th>
+  <td>140
+  </td>
+  <td>168
+  </td>
+  <td>196
+  </td>
+  <td>2.071
+  </td>
+  <td>12 mins
+  </td>
+  <td>1
+  </td>
+  <td>14.000
+  </td>
+  <td>18&nbsp;h
+  </td>
+  <td>8<a href="https://static.wikia.nocookie.net/clashofclans/images/1/1d/H%C3%B4tel_de_ville_niv8.png/revision/latest?cb=20170529110433&amp;path-prefix=fr" class="image" title="HDV8"><img alt="HDV8" src="https://static.wikia.nocookie.net/clashofclans/images/1/1d/H%C3%B4tel_de_ville_niv8.png/revision/latest/scale-to-width-down/30?cb=20170529110433&amp;path-prefix=fr" decoding="async" width="30" height="28" data-image-name="Hôtel de ville niv8.png" data-image-key="H%C3%B4tel_de_ville_niv8.png" data-src="https://static.wikia.nocookie.net/clashofclans/images/1/1d/H%C3%B4tel_de_ville_niv8.png/revision/latest/scale-to-width-down/30?cb=20170529110433&amp;path-prefix=fr" class=" ls-is-cached lazyloaded"></a>
+  </td></tr>
+  <tr>
+  <th>10
+  </th>
+  <td>143
+  </td>
+  <td>171,6
+  </td>
+  <td>244
+  </td>
+  <td>2.123
+  </td>
+  <td>14 mins
+  </td>
+  <td>2
+  </td>
+  <td>15.000
+  </td>
+  <td>20 h
+  </td>
+  <td>8<a href="https://static.wikia.nocookie.net/clashofclans/images/1/1d/H%C3%B4tel_de_ville_niv8.png/revision/latest?cb=20170529110433&amp;path-prefix=fr" class="image" title="HDV8"><img alt="HDV8" src="https://static.wikia.nocookie.net/clashofclans/images/1/1d/H%C3%B4tel_de_ville_niv8.png/revision/latest/scale-to-width-down/30?cb=20170529110433&amp;path-prefix=fr" decoding="async" width="30" height="28" data-image-name="Hôtel de ville niv8.png" data-image-key="H%C3%B4tel_de_ville_niv8.png" data-src="https://static.wikia.nocookie.net/clashofclans/images/1/1d/H%C3%B4tel_de_ville_niv8.png/revision/latest/scale-to-width-down/30?cb=20170529110433&amp;path-prefix=fr" class=" ls-is-cached lazyloaded"></a>
+  </td></tr>
+  <tr>
+  <th>11
+  </th>
+  <td>146
+  </td>
+  <td>175,2
+  </td>
+  <td>247
+  </td>
+  <td>2.176
+  </td>
+  <td>14 mins
+  </td>
+  <td>2
+  </td>
+  <td>17.000
+  </td>
+  <td>22 h
+  </td>
+  <td>9<a href="https://static.wikia.nocookie.net/clashofclans/images/3/31/H%C3%B4tel_de_ville_niv9.png/revision/latest?cb=20170529110434&amp;path-prefix=fr" class="image" title="HDV9"><img alt="HDV9" src="https://static.wikia.nocookie.net/clashofclans/images/3/31/H%C3%B4tel_de_ville_niv9.png/revision/latest/scale-to-width-down/30?cb=20170529110434&amp;path-prefix=fr" decoding="async" width="30" height="27" data-image-name="Hôtel de ville niv9.png" data-image-key="H%C3%B4tel_de_ville_niv9.png" data-src="https://static.wikia.nocookie.net/clashofclans/images/3/31/H%C3%B4tel_de_ville_niv9.png/revision/latest/scale-to-width-down/30?cb=20170529110434&amp;path-prefix=fr" class=" lazyloaded"></a>
+  </td></tr>
+  <tr>
+  <th>12
+  </th>
+  <td>149
+  </td>
+  <td>178,8
+  </td>
+  <td>250
+  </td>
+  <td>2.230
+  </td>
+  <td>14 mins
+  </td>
+  <td>2
+  </td>
+  <td>19.000
+  </td>
+  <td>1 j
+  </td>
+  <td>9<a href="https://static.wikia.nocookie.net/clashofclans/images/3/31/H%C3%B4tel_de_ville_niv9.png/revision/latest?cb=20170529110434&amp;path-prefix=fr" class="image" title="HDV9"><img alt="HDV9" src="https://static.wikia.nocookie.net/clashofclans/images/3/31/H%C3%B4tel_de_ville_niv9.png/revision/latest/scale-to-width-down/30?cb=20170529110434&amp;path-prefix=fr" decoding="async" width="30" height="27" data-image-name="Hôtel de ville niv9.png" data-image-key="H%C3%B4tel_de_ville_niv9.png" data-src="https://static.wikia.nocookie.net/clashofclans/images/3/31/H%C3%B4tel_de_ville_niv9.png/revision/latest/scale-to-width-down/30?cb=20170529110434&amp;path-prefix=fr" class=" lazyloaded"></a>
+  </td></tr>
+  <tr>
+  <th>13
+  </th>
+  <td>152
+  </td>
+  <td>182,4
+  </td>
+  <td>253
+  </td>
+  <td>2.286
+  </td>
+  <td>14 mins
+  </td>
+  <td>2
+  </td>
+  <td>21.000
+  </td>
+  <td>1 j 8 h
+  </td>
+  <td>9<a href="https://static.wikia.nocookie.net/clashofclans/images/3/31/H%C3%B4tel_de_ville_niv9.png/revision/latest?cb=20170529110434&amp;path-prefix=fr" class="image" title="HDV9"><img alt="HDV9" src="https://static.wikia.nocookie.net/clashofclans/images/3/31/H%C3%B4tel_de_ville_niv9.png/revision/latest/scale-to-width-down/30?cb=20170529110434&amp;path-prefix=fr" decoding="async" width="30" height="27" data-image-name="Hôtel de ville niv9.png" data-image-key="H%C3%B4tel_de_ville_niv9.png" data-src="https://static.wikia.nocookie.net/clashofclans/images/3/31/H%C3%B4tel_de_ville_niv9.png/revision/latest/scale-to-width-down/30?cb=20170529110434&amp;path-prefix=fr" class=" ls-is-cached lazyloaded"></a>
+  </td></tr>
+  <tr>
+  <th>14
+  </th>
+  <td>155
+  </td>
+  <td>186
+  </td>
+  <td>256
+  </td>
+  <td>2.343
+  </td>
+  <td>14 mins
+  </td>
+  <td>2
+  </td>
+  <td>23.000
+  </td>
+  <td>1 j 16 h
+  </td>
+  <td>9<a href="https://static.wikia.nocookie.net/clashofclans/images/3/31/H%C3%B4tel_de_ville_niv9.png/revision/latest?cb=20170529110434&amp;path-prefix=fr" class="image" title="HDV9"><img alt="HDV9" src="https://static.wikia.nocookie.net/clashofclans/images/3/31/H%C3%B4tel_de_ville_niv9.png/revision/latest/scale-to-width-down/30?cb=20170529110434&amp;path-prefix=fr" decoding="async" width="30" height="27" data-image-name="Hôtel de ville niv9.png" data-image-key="H%C3%B4tel_de_ville_niv9.png" data-src="https://static.wikia.nocookie.net/clashofclans/images/3/31/H%C3%B4tel_de_ville_niv9.png/revision/latest/scale-to-width-down/30?cb=20170529110434&amp;path-prefix=fr" class=" ls-is-cached lazyloaded"></a>
+  </td></tr>
+  <tr>
+  <th>15
+  </th>
+  <td>158
+  </td>
+  <td>189,6
+  </td>
+  <td>305
+  </td>
+  <td>2.402
+  </td>
+  <td>16 mins
+  </td>
+  <td>3
+  </td>
+  <td>25.000
+  </td>
+  <td>2 j
+  </td>
+  <td>9<a href="https://static.wikia.nocookie.net/clashofclans/images/3/31/H%C3%B4tel_de_ville_niv9.png/revision/latest?cb=20170529110434&amp;path-prefix=fr" class="image" title="HDV9"><img alt="HDV9" src="https://static.wikia.nocookie.net/clashofclans/images/3/31/H%C3%B4tel_de_ville_niv9.png/revision/latest/scale-to-width-down/30?cb=20170529110434&amp;path-prefix=fr" decoding="async" width="30" height="27" data-image-name="Hôtel de ville niv9.png" data-image-key="H%C3%B4tel_de_ville_niv9.png" data-src="https://static.wikia.nocookie.net/clashofclans/images/3/31/H%C3%B4tel_de_ville_niv9.png/revision/latest/scale-to-width-down/30?cb=20170529110434&amp;path-prefix=fr" class=" ls-is-cached lazyloaded"></a>
+  </td></tr>
+  <tr>
+  <th>16
+  </th>
+  <td>161
+  </td>
+  <td>193,2
+  </td>
+  <td>308
+  </td>
+  <td>2.462
+  </td>
+  <td>16 mins
+  </td>
+  <td>3
+  </td>
+  <td>27.000
+  </td>
+  <td>2 j
+  </td>
+  <td>9<a href="https://static.wikia.nocookie.net/clashofclans/images/3/31/H%C3%B4tel_de_ville_niv9.png/revision/latest?cb=20170529110434&amp;path-prefix=fr" class="image" title="HDV9"><img alt="HDV9" src="https://static.wikia.nocookie.net/clashofclans/images/3/31/H%C3%B4tel_de_ville_niv9.png/revision/latest/scale-to-width-down/30?cb=20170529110434&amp;path-prefix=fr" decoding="async" width="30" height="27" data-image-name="Hôtel de ville niv9.png" data-image-key="H%C3%B4tel_de_ville_niv9.png" data-src="https://static.wikia.nocookie.net/clashofclans/images/3/31/H%C3%B4tel_de_ville_niv9.png/revision/latest/scale-to-width-down/30?cb=20170529110434&amp;path-prefix=fr" class=" ls-is-cached lazyloaded"></a>
+  </td></tr>
+  <tr>
+  <th>17
+  </th>
+  <td>164
+  </td>
+  <td>196,8
+  </td>
+  <td>311
+  </td>
+  <td>2.523
+  </td>
+  <td>16 mins
+  </td>
+  <td>3
+  </td>
+  <td>29.000
+  </td>
+  <td>2 j
+  </td>
+  <td>9<a href="https://static.wikia.nocookie.net/clashofclans/images/3/31/H%C3%B4tel_de_ville_niv9.png/revision/latest?cb=20170529110434&amp;path-prefix=fr" class="image" title="HDV9"><img alt="HDV9" src="https://static.wikia.nocookie.net/clashofclans/images/3/31/H%C3%B4tel_de_ville_niv9.png/revision/latest/scale-to-width-down/30?cb=20170529110434&amp;path-prefix=fr" decoding="async" width="30" height="27" data-image-name="Hôtel de ville niv9.png" data-image-key="H%C3%B4tel_de_ville_niv9.png" data-src="https://static.wikia.nocookie.net/clashofclans/images/3/31/H%C3%B4tel_de_ville_niv9.png/revision/latest/scale-to-width-down/30?cb=20170529110434&amp;path-prefix=fr" class=" ls-is-cached lazyloaded"></a>
+  </td></tr>
+  <tr>
+  <th>18
+  </th>
+  <td>168
+  </td>
+  <td>201,6
+  </td>
+  <td>315
+  </td>
+  <td>2.586
+  </td>
+  <td>16 mins
+  </td>
+  <td>3
+  </td>
+  <td>31.000
+  </td>
+  <td>2 j
+  </td>
+  <td>9<a href="https://static.wikia.nocookie.net/clashofclans/images/3/31/H%C3%B4tel_de_ville_niv9.png/revision/latest?cb=20170529110434&amp;path-prefix=fr" class="image" title="HDV9"><img alt="HDV9" src="https://static.wikia.nocookie.net/clashofclans/images/3/31/H%C3%B4tel_de_ville_niv9.png/revision/latest/scale-to-width-down/30?cb=20170529110434&amp;path-prefix=fr" decoding="async" width="30" height="27" data-image-name="Hôtel de ville niv9.png" data-image-key="H%C3%B4tel_de_ville_niv9.png" data-src="https://static.wikia.nocookie.net/clashofclans/images/3/31/H%C3%B4tel_de_ville_niv9.png/revision/latest/scale-to-width-down/30?cb=20170529110434&amp;path-prefix=fr" class=" ls-is-cached lazyloaded"></a>
+  </td></tr>
+  <tr>
+  <th>19
+  </th>
+  <td>171
+  </td>
+  <td>205,2
+  </td>
+  <td>318
+  </td>
+  <td>2.651
+  </td>
+  <td>16 mins
+  </td>
+  <td>3
+  </td>
+  <td>33.000
+  </td>
+  <td>2 j
+  </td>
+  <td>9<a href="https://static.wikia.nocookie.net/clashofclans/images/3/31/H%C3%B4tel_de_ville_niv9.png/revision/latest?cb=20170529110434&amp;path-prefix=fr" class="image" title="HDV9"><img alt="HDV9" src="https://static.wikia.nocookie.net/clashofclans/images/3/31/H%C3%B4tel_de_ville_niv9.png/revision/latest/scale-to-width-down/30?cb=20170529110434&amp;path-prefix=fr" decoding="async" width="30" height="27" data-image-name="Hôtel de ville niv9.png" data-image-key="H%C3%B4tel_de_ville_niv9.png" data-src="https://static.wikia.nocookie.net/clashofclans/images/3/31/H%C3%B4tel_de_ville_niv9.png/revision/latest/scale-to-width-down/30?cb=20170529110434&amp;path-prefix=fr" class=" ls-is-cached lazyloaded"></a>
+  </td></tr>
+  <tr>
+  <th>20
+  </th>
+  <td>174
+  </td>
+  <td>208,8
+  </td>
+  <td>369
+  </td>
+  <td>2.717
+  </td>
+  <td>18 mins
+  </td>
+  <td>4
+  </td>
+  <td>35.000
+  </td>
+  <td>3 j
+  </td>
+  <td>9<a href="https://static.wikia.nocookie.net/clashofclans/images/3/31/H%C3%B4tel_de_ville_niv9.png/revision/latest?cb=20170529110434&amp;path-prefix=fr" class="image" title="HDV9"><img alt="HDV9" src="https://static.wikia.nocookie.net/clashofclans/images/3/31/H%C3%B4tel_de_ville_niv9.png/revision/latest/scale-to-width-down/30?cb=20170529110434&amp;path-prefix=fr" decoding="async" width="30" height="27" data-image-name="Hôtel de ville niv9.png" data-image-key="H%C3%B4tel_de_ville_niv9.png" data-src="https://static.wikia.nocookie.net/clashofclans/images/3/31/H%C3%B4tel_de_ville_niv9.png/revision/latest/scale-to-width-down/30?cb=20170529110434&amp;path-prefix=fr" class=" ls-is-cached lazyloaded"></a>
+  </td></tr>
+  <tr>
+  <th>21
+  </th>
+  <td>178
+  </td>
+  <td>213,6
+  </td>
+  <td>373
+  </td>
+  <td>2.785
+  </td>
+  <td>18 mins
+  </td>
+  <td>4
+  </td>
+  <td>37.000
+  </td>
+  <td>3 j
+  </td>
+  <td>9<a href="https://static.wikia.nocookie.net/clashofclans/images/3/31/H%C3%B4tel_de_ville_niv9.png/revision/latest?cb=20170529110434&amp;path-prefix=fr" class="image" title="HDV9"><img alt="HDV9" src="https://static.wikia.nocookie.net/clashofclans/images/3/31/H%C3%B4tel_de_ville_niv9.png/revision/latest/scale-to-width-down/30?cb=20170529110434&amp;path-prefix=fr" decoding="async" width="30" height="27" data-image-name="Hôtel de ville niv9.png" data-image-key="H%C3%B4tel_de_ville_niv9.png" data-src="https://static.wikia.nocookie.net/clashofclans/images/3/31/H%C3%B4tel_de_ville_niv9.png/revision/latest/scale-to-width-down/30?cb=20170529110434&amp;path-prefix=fr" class=" ls-is-cached lazyloaded"></a>
+  </td></tr>
+  <tr>
+  <th>22
+  </th>
+  <td>181
+  </td>
+  <td>217,2
+  </td>
+  <td>376
+  </td>
+  <td>2.855
+  </td>
+  <td>18 mins
+  </td>
+  <td>4
+  </td>
+  <td>39.000
+  </td>
+  <td>3 j
+  </td>
+  <td>9<a href="https://static.wikia.nocookie.net/clashofclans/images/3/31/H%C3%B4tel_de_ville_niv9.png/revision/latest?cb=20170529110434&amp;path-prefix=fr" class="image" title="HDV9"><img alt="HDV9" src="https://static.wikia.nocookie.net/clashofclans/images/3/31/H%C3%B4tel_de_ville_niv9.png/revision/latest/scale-to-width-down/30?cb=20170529110434&amp;path-prefix=fr" decoding="async" width="30" height="27" data-image-name="Hôtel de ville niv9.png" data-image-key="H%C3%B4tel_de_ville_niv9.png" data-src="https://static.wikia.nocookie.net/clashofclans/images/3/31/H%C3%B4tel_de_ville_niv9.png/revision/latest/scale-to-width-down/30?cb=20170529110434&amp;path-prefix=fr" class=" ls-is-cached lazyloaded"></a>
+  </td></tr>
+  <tr>
+  <th>23
+  </th>
+  <td>185
+  </td>
+  <td>222
+  </td>
+  <td>380
+  </td>
+  <td>2.926
+  </td>
+  <td>18 mins
+  </td>
+  <td>4
+  </td>
+  <td>41.000
+  </td>
+  <td>3 j
+  </td>
+  <td>9<a href="https://static.wikia.nocookie.net/clashofclans/images/3/31/H%C3%B4tel_de_ville_niv9.png/revision/latest?cb=20170529110434&amp;path-prefix=fr" class="image" title="HDV9"><img alt="HDV9" src="https://static.wikia.nocookie.net/clashofclans/images/3/31/H%C3%B4tel_de_ville_niv9.png/revision/latest/scale-to-width-down/30?cb=20170529110434&amp;path-prefix=fr" decoding="async" width="30" height="27" data-image-name="Hôtel de ville niv9.png" data-image-key="H%C3%B4tel_de_ville_niv9.png" data-src="https://static.wikia.nocookie.net/clashofclans/images/3/31/H%C3%B4tel_de_ville_niv9.png/revision/latest/scale-to-width-down/30?cb=20170529110434&amp;path-prefix=fr" class=" ls-is-cached lazyloaded"></a>
+  </td></tr>
+  <tr>
+  <th>24
+  </th>
+  <td>189
+  </td>
+  <td>226,8
+  </td>
+  <td>384
+  </td>
+  <td>2.999
+  </td>
+  <td>18 mins
+  </td>
+  <td>4
+  </td>
+  <td>43.000
+  </td>
+  <td>3 j
+  </td>
+  <td>9<a href="https://static.wikia.nocookie.net/clashofclans/images/3/31/H%C3%B4tel_de_ville_niv9.png/revision/latest?cb=20170529110434&amp;path-prefix=fr" class="image" title="HDV9"><img alt="HDV9" src="https://static.wikia.nocookie.net/clashofclans/images/3/31/H%C3%B4tel_de_ville_niv9.png/revision/latest/scale-to-width-down/30?cb=20170529110434&amp;path-prefix=fr" decoding="async" width="30" height="27" data-image-name="Hôtel de ville niv9.png" data-image-key="H%C3%B4tel_de_ville_niv9.png" data-src="https://static.wikia.nocookie.net/clashofclans/images/3/31/H%C3%B4tel_de_ville_niv9.png/revision/latest/scale-to-width-down/30?cb=20170529110434&amp;path-prefix=fr" class=" ls-is-cached lazyloaded"></a>
+  </td></tr>
+  <tr>
+  <th>25
+  </th>
+  <td>193
+  </td>
+  <td>231,6
+  </td>
+  <td>438
+  </td>
+  <td>3.074
+  </td>
+  <td>18 mins
+  </td>
+  <td>5
+  </td>
+  <td>45.000
+  </td>
+  <td>3 j 12 h
+  </td>
+  <td>9<a href="https://static.wikia.nocookie.net/clashofclans/images/3/31/H%C3%B4tel_de_ville_niv9.png/revision/latest?cb=20170529110434&amp;path-prefix=fr" class="image" title="HDV9"><img alt="HDV9" src="https://static.wikia.nocookie.net/clashofclans/images/3/31/H%C3%B4tel_de_ville_niv9.png/revision/latest/scale-to-width-down/30?cb=20170529110434&amp;path-prefix=fr" decoding="async" width="30" height="27" data-image-name="Hôtel de ville niv9.png" data-image-key="H%C3%B4tel_de_ville_niv9.png" data-src="https://static.wikia.nocookie.net/clashofclans/images/3/31/H%C3%B4tel_de_ville_niv9.png/revision/latest/scale-to-width-down/30?cb=20170529110434&amp;path-prefix=fr" class=" ls-is-cached lazyloaded"></a>
+  </td></tr>
+  <tr>
+  <th>26
+  </th>
+  <td>196
+  </td>
+  <td>235,2
+  </td>
+  <td>441
+  </td>
+  <td>3.151
+  </td>
+  <td>20 mins
+  </td>
+  <td>5
+  </td>
+  <td>48.000
+  </td>
+  <td>3 j 12 h
+  </td>
+  <td>9<a href="https://static.wikia.nocookie.net/clashofclans/images/3/31/H%C3%B4tel_de_ville_niv9.png/revision/latest?cb=20170529110434&amp;path-prefix=fr" class="image" title="HDV9"><img alt="HDV9" src="https://static.wikia.nocookie.net/clashofclans/images/3/31/H%C3%B4tel_de_ville_niv9.png/revision/latest/scale-to-width-down/30?cb=20170529110434&amp;path-prefix=fr" decoding="async" width="30" height="27" data-image-name="Hôtel de ville niv9.png" data-image-key="H%C3%B4tel_de_ville_niv9.png" data-src="https://static.wikia.nocookie.net/clashofclans/images/3/31/H%C3%B4tel_de_ville_niv9.png/revision/latest/scale-to-width-down/30?cb=20170529110434&amp;path-prefix=fr" class=" ls-is-cached lazyloaded"></a>
+  </td></tr>
+  <tr>
+  <th>27
+  </th>
+  <td>200
+  </td>
+  <td>240
+  </td>
+  <td>445
+  </td>
+  <td>3.230
+  </td>
+  <td>20 mins
+  </td>
+  <td>5
+  </td>
+  <td>51.000
+  </td>
+  <td>3 j 12 h
+  </td>
+  <td>9<a href="https://static.wikia.nocookie.net/clashofclans/images/3/31/H%C3%B4tel_de_ville_niv9.png/revision/latest?cb=20170529110434&amp;path-prefix=fr" class="image" title="HDV9"><img alt="HDV9" src="https://static.wikia.nocookie.net/clashofclans/images/3/31/H%C3%B4tel_de_ville_niv9.png/revision/latest/scale-to-width-down/30?cb=20170529110434&amp;path-prefix=fr" decoding="async" width="30" height="27" data-image-name="Hôtel de ville niv9.png" data-image-key="H%C3%B4tel_de_ville_niv9.png" data-src="https://static.wikia.nocookie.net/clashofclans/images/3/31/H%C3%B4tel_de_ville_niv9.png/revision/latest/scale-to-width-down/30?cb=20170529110434&amp;path-prefix=fr" class=" ls-is-cached lazyloaded"></a>
+  </td></tr>
+  <tr>
+  <th>28
+  </th>
+  <td>204
+  </td>
+  <td>244,8
+  </td>
+  <td>449
+  </td>
+  <td>3.311
+  </td>
+  <td>20 mins
+  </td>
+  <td>5
+  </td>
+  <td>54.000
+  </td>
+  <td>3 j 12 h
+  </td>
+  <td>9<a href="https://static.wikia.nocookie.net/clashofclans/images/3/31/H%C3%B4tel_de_ville_niv9.png/revision/latest?cb=20170529110434&amp;path-prefix=fr" class="image" title="HDV9"><img alt="HDV9" src="https://static.wikia.nocookie.net/clashofclans/images/3/31/H%C3%B4tel_de_ville_niv9.png/revision/latest/scale-to-width-down/30?cb=20170529110434&amp;path-prefix=fr" decoding="async" width="30" height="27" data-image-name="Hôtel de ville niv9.png" data-image-key="H%C3%B4tel_de_ville_niv9.png" data-src="https://static.wikia.nocookie.net/clashofclans/images/3/31/H%C3%B4tel_de_ville_niv9.png/revision/latest/scale-to-width-down/30?cb=20170529110434&amp;path-prefix=fr" class=" ls-is-cached lazyloaded"></a>
+  </td></tr>
+  <tr>
+  <th>29
+  </th>
+  <td>208
+  </td>
+  <td>249,6
+  </td>
+  <td>453
+  </td>
+  <td>3.394
+  </td>
+  <td>20 mins
+  </td>
+  <td>5
+  </td>
+  <td>57.000
+  </td>
+  <td>3 j 12 h
+  </td>
+  <td>9<a href="https://static.wikia.nocookie.net/clashofclans/images/3/31/H%C3%B4tel_de_ville_niv9.png/revision/latest?cb=20170529110434&amp;path-prefix=fr" class="image" title="HDV9"><img alt="HDV9" src="https://static.wikia.nocookie.net/clashofclans/images/3/31/H%C3%B4tel_de_ville_niv9.png/revision/latest/scale-to-width-down/30?cb=20170529110434&amp;path-prefix=fr" decoding="async" width="30" height="27" data-image-name="Hôtel de ville niv9.png" data-image-key="H%C3%B4tel_de_ville_niv9.png" data-src="https://static.wikia.nocookie.net/clashofclans/images/3/31/H%C3%B4tel_de_ville_niv9.png/revision/latest/scale-to-width-down/30?cb=20170529110434&amp;path-prefix=fr" class=" ls-is-cached lazyloaded"></a>
+  </td></tr>
+  <tr>
+  <th>30
+  </th>
+  <td>213
+  </td>
+  <td>255,6
+  </td>
+  <td>511
+  </td>
+  <td>3.478
+  </td>
+  <td>22 mins
+  </td>
+  <td>6
+  </td>
+  <td>60.000
+  </td>
+  <td>4 j
+  </td>
+  <td>9<a href="https://static.wikia.nocookie.net/clashofclans/images/3/31/H%C3%B4tel_de_ville_niv9.png/revision/latest?cb=20170529110434&amp;path-prefix=fr" class="image" title="HDV9"><img alt="HDV9" src="https://static.wikia.nocookie.net/clashofclans/images/3/31/H%C3%B4tel_de_ville_niv9.png/revision/latest/scale-to-width-down/30?cb=20170529110434&amp;path-prefix=fr" decoding="async" width="30" height="27" data-image-name="Hôtel de ville niv9.png" data-image-key="H%C3%B4tel_de_ville_niv9.png" data-src="https://static.wikia.nocookie.net/clashofclans/images/3/31/H%C3%B4tel_de_ville_niv9.png/revision/latest/scale-to-width-down/30?cb=20170529110434&amp;path-prefix=fr" class=" ls-is-cached lazyloaded"></a>
+  </td></tr>
+  <tr>
+  <th>31
+  </th>
+  <td>217
+  </td>
+  <td>260,4
+  </td>
+  <td>515
+  </td>
+  <td>3.565
+  </td>
+  <td>22 mins
+  </td>
+  <td>6
+  </td>
+  <td>63.000
+  </td>
+  <td>4 j
+  </td>
+  <td>10<a href="https://static.wikia.nocookie.net/clashofclans/images/1/10/H%C3%B4tel_de_ville_niv10.png/revision/latest?cb=20170529110434&amp;path-prefix=fr" class="image" title="HDV10"><img alt="HDV10" src="https://static.wikia.nocookie.net/clashofclans/images/1/10/H%C3%B4tel_de_ville_niv10.png/revision/latest/scale-to-width-down/30?cb=20170529110434&amp;path-prefix=fr" decoding="async" width="30" height="28" data-image-name="Hôtel de ville niv10.png" data-image-key="H%C3%B4tel_de_ville_niv10.png" data-src="https://static.wikia.nocookie.net/clashofclans/images/1/10/H%C3%B4tel_de_ville_niv10.png/revision/latest/scale-to-width-down/30?cb=20170529110434&amp;path-prefix=fr" class=" lazyloaded"></a>
+  </td></tr>
+  <tr>
+  <th>32
+  </th>
+  <td>221
+  </td>
+  <td>265,2
+  </td>
+  <td>519
+  </td>
+  <td>3.655
+  </td>
+  <td>22 mins
+  </td>
+  <td>6
+  </td>
+  <td>66.000
+  </td>
+  <td>4 j
+  </td>
+  <td>10<a href="https://static.wikia.nocookie.net/clashofclans/images/1/10/H%C3%B4tel_de_ville_niv10.png/revision/latest?cb=20170529110434&amp;path-prefix=fr" class="image" title="HDV10"><img alt="HDV10" src="https://static.wikia.nocookie.net/clashofclans/images/1/10/H%C3%B4tel_de_ville_niv10.png/revision/latest/scale-to-width-down/30?cb=20170529110434&amp;path-prefix=fr" decoding="async" width="30" height="28" data-image-name="Hôtel de ville niv10.png" data-image-key="H%C3%B4tel_de_ville_niv10.png" data-src="https://static.wikia.nocookie.net/clashofclans/images/1/10/H%C3%B4tel_de_ville_niv10.png/revision/latest/scale-to-width-down/30?cb=20170529110434&amp;path-prefix=fr" class=" lazyloaded"></a>
+  </td></tr>
+  <tr>
+  <th>33
+  </th>
+  <td>226
+  </td>
+  <td>271,2
+  </td>
+  <td>524
+  </td>
+  <td>3.746
+  </td>
+  <td>22 mins
+  </td>
+  <td>6
+  </td>
+  <td>69.000
+  </td>
+  <td>4 j
+  </td>
+  <td>10<a href="https://static.wikia.nocookie.net/clashofclans/images/1/10/H%C3%B4tel_de_ville_niv10.png/revision/latest?cb=20170529110434&amp;path-prefix=fr" class="image" title="HDV10"><img alt="HDV10" src="https://static.wikia.nocookie.net/clashofclans/images/1/10/H%C3%B4tel_de_ville_niv10.png/revision/latest/scale-to-width-down/30?cb=20170529110434&amp;path-prefix=fr" decoding="async" width="30" height="28" data-image-name="Hôtel de ville niv10.png" data-image-key="H%C3%B4tel_de_ville_niv10.png" data-src="https://static.wikia.nocookie.net/clashofclans/images/1/10/H%C3%B4tel_de_ville_niv10.png/revision/latest/scale-to-width-down/30?cb=20170529110434&amp;path-prefix=fr" class=" lazyloaded"></a>
+  </td></tr>
+  <tr>
+  <th>34
+  </th>
+  <td>230
+  </td>
+  <td>276
+  </td>
+  <td>528
+  </td>
+  <td>3.840
+  </td>
+  <td>22 mins
+  </td>
+  <td>6
+  </td>
+  <td>72.000
+  </td>
+  <td>4 j
+  </td>
+  <td>10<a href="https://static.wikia.nocookie.net/clashofclans/images/1/10/H%C3%B4tel_de_ville_niv10.png/revision/latest?cb=20170529110434&amp;path-prefix=fr" class="image" title="HDV10"><img alt="HDV10" src="https://static.wikia.nocookie.net/clashofclans/images/1/10/H%C3%B4tel_de_ville_niv10.png/revision/latest/scale-to-width-down/30?cb=20170529110434&amp;path-prefix=fr" decoding="async" width="30" height="28" data-image-name="Hôtel de ville niv10.png" data-image-key="H%C3%B4tel_de_ville_niv10.png" data-src="https://static.wikia.nocookie.net/clashofclans/images/1/10/H%C3%B4tel_de_ville_niv10.png/revision/latest/scale-to-width-down/30?cb=20170529110434&amp;path-prefix=fr" class=" lazyloaded"></a>
+  </td></tr>
+  <tr>
+  <th>35
+  </th>
+  <td>235
+  </td>
+  <td>282
+  </td>
+  <td>589
+  </td>
+  <td>3.936
+  </td>
+  <td>22 mins
+  </td>
+  <td>7
+  </td>
+  <td>75.000
+  </td>
+  <td>5 j
+  </td>
+  <td>10<a href="https://static.wikia.nocookie.net/clashofclans/images/1/10/H%C3%B4tel_de_ville_niv10.png/revision/latest?cb=20170529110434&amp;path-prefix=fr" class="image" title="HDV10"><img alt="HDV10" src="https://static.wikia.nocookie.net/clashofclans/images/1/10/H%C3%B4tel_de_ville_niv10.png/revision/latest/scale-to-width-down/30?cb=20170529110434&amp;path-prefix=fr" decoding="async" width="30" height="28" data-image-name="Hôtel de ville niv10.png" data-image-key="H%C3%B4tel_de_ville_niv10.png" data-src="https://static.wikia.nocookie.net/clashofclans/images/1/10/H%C3%B4tel_de_ville_niv10.png/revision/latest/scale-to-width-down/30?cb=20170529110434&amp;path-prefix=fr" class=" ls-is-cached lazyloaded"></a>
+  </td></tr>
+  <tr>
+  <th>36
+  </th>
+  <td>239
+  </td>
+  <td>286,8
+  </td>
+  <td>593
+  </td>
+  <td>4.034
+  </td>
+  <td>24 mins
+  </td>
+  <td>7
+  </td>
+  <td>80.000
+  </td>
+  <td>5 j
+  </td>
+  <td>10<a href="https://static.wikia.nocookie.net/clashofclans/images/1/10/H%C3%B4tel_de_ville_niv10.png/revision/latest?cb=20170529110434&amp;path-prefix=fr" class="image" title="HDV10"><img alt="HDV10" src="https://static.wikia.nocookie.net/clashofclans/images/1/10/H%C3%B4tel_de_ville_niv10.png/revision/latest/scale-to-width-down/30?cb=20170529110434&amp;path-prefix=fr" decoding="async" width="30" height="28" data-image-name="Hôtel de ville niv10.png" data-image-key="H%C3%B4tel_de_ville_niv10.png" data-src="https://static.wikia.nocookie.net/clashofclans/images/1/10/H%C3%B4tel_de_ville_niv10.png/revision/latest/scale-to-width-down/30?cb=20170529110434&amp;path-prefix=fr" class=" ls-is-cached lazyloaded"></a>
+  </td></tr>
+  <tr>
+  <th>37
+  </th>
+  <td>244
+  </td>
+  <td>292,8
+  </td>
+  <td>598
+  </td>
+  <td>4.135
+  </td>
+  <td>24 mins
+  </td>
+  <td>7
+  </td>
+  <td>85.000
+  </td>
+  <td>5 j
+  </td>
+  <td>10<a href="https://static.wikia.nocookie.net/clashofclans/images/1/10/H%C3%B4tel_de_ville_niv10.png/revision/latest?cb=20170529110434&amp;path-prefix=fr" class="image" title="HDV10"><img alt="HDV10" src="https://static.wikia.nocookie.net/clashofclans/images/1/10/H%C3%B4tel_de_ville_niv10.png/revision/latest/scale-to-width-down/30?cb=20170529110434&amp;path-prefix=fr" decoding="async" width="30" height="28" data-image-name="Hôtel de ville niv10.png" data-image-key="H%C3%B4tel_de_ville_niv10.png" data-src="https://static.wikia.nocookie.net/clashofclans/images/1/10/H%C3%B4tel_de_ville_niv10.png/revision/latest/scale-to-width-down/30?cb=20170529110434&amp;path-prefix=fr" class=" ls-is-cached lazyloaded"></a>
+  </td></tr>
+  <tr>
+  <th>38
+  </th>
+  <td>249
+  </td>
+  <td>298,8
+  </td>
+  <td>603
+  </td>
+  <td>4.238
+  </td>
+  <td>24 mins
+  </td>
+  <td>7
+  </td>
+  <td>90.000
+  </td>
+  <td>5 j
+  </td>
+  <td>10<a href="https://static.wikia.nocookie.net/clashofclans/images/1/10/H%C3%B4tel_de_ville_niv10.png/revision/latest?cb=20170529110434&amp;path-prefix=fr" class="image" title="HDV10"><img alt="HDV10" src="https://static.wikia.nocookie.net/clashofclans/images/1/10/H%C3%B4tel_de_ville_niv10.png/revision/latest/scale-to-width-down/30?cb=20170529110434&amp;path-prefix=fr" decoding="async" width="30" height="28" data-image-name="Hôtel de ville niv10.png" data-image-key="H%C3%B4tel_de_ville_niv10.png" data-src="https://static.wikia.nocookie.net/clashofclans/images/1/10/H%C3%B4tel_de_ville_niv10.png/revision/latest/scale-to-width-down/30?cb=20170529110434&amp;path-prefix=fr" class=" ls-is-cached lazyloaded"></a>
+  </td></tr>
+  <tr>
+  <th>39
+  </th>
+  <td>254
+  </td>
+  <td>304,8
+  </td>
+  <td>608
+  </td>
+  <td>4.344
+  </td>
+  <td>24 mins
+  </td>
+  <td>7
+  </td>
+  <td>95.000
+  </td>
+  <td>5 j
+  </td>
+  <td>10<a href="https://static.wikia.nocookie.net/clashofclans/images/1/10/H%C3%B4tel_de_ville_niv10.png/revision/latest?cb=20170529110434&amp;path-prefix=fr" class="image" title="HDV10"><img alt="HDV10" src="https://static.wikia.nocookie.net/clashofclans/images/1/10/H%C3%B4tel_de_ville_niv10.png/revision/latest/scale-to-width-down/30?cb=20170529110434&amp;path-prefix=fr" decoding="async" width="30" height="28" data-image-name="Hôtel de ville niv10.png" data-image-key="H%C3%B4tel_de_ville_niv10.png" data-src="https://static.wikia.nocookie.net/clashofclans/images/1/10/H%C3%B4tel_de_ville_niv10.png/revision/latest/scale-to-width-down/30?cb=20170529110434&amp;path-prefix=fr" class=" ls-is-cached lazyloaded"></a>
+  </td></tr>
+  <tr>
+  <th>40
+  </th>
+  <td>259
+  </td>
+  <td>310,8
+  </td>
+  <td>673
+  </td>
+  <td>4.453
+  </td>
+  <td>26 mins
+  </td>
+  <td>8
+  </td>
+  <td>100.000
+  </td>
+  <td>6 j
+  </td>
+  <td>10<a href="https://static.wikia.nocookie.net/clashofclans/images/1/10/H%C3%B4tel_de_ville_niv10.png/revision/latest?cb=20170529110434&amp;path-prefix=fr" class="image" title="HDV10"><img alt="HDV10" src="https://static.wikia.nocookie.net/clashofclans/images/1/10/H%C3%B4tel_de_ville_niv10.png/revision/latest/scale-to-width-down/30?cb=20170529110434&amp;path-prefix=fr" decoding="async" width="30" height="28" data-image-name="Hôtel de ville niv10.png" data-image-key="H%C3%B4tel_de_ville_niv10.png" data-src="https://static.wikia.nocookie.net/clashofclans/images/1/10/H%C3%B4tel_de_ville_niv10.png/revision/latest/scale-to-width-down/30?cb=20170529110434&amp;path-prefix=fr" class=" ls-is-cached lazyloaded"></a>
+  </td></tr>
+  <tr>
+  <th>41
+  </th>
+  <td>275
+  </td>
+  <td>330
+  </td>
+  <td>689
+  </td>
+  <td>4.564
+  </td>
+  <td>26 mins
+  </td>
+  <td>8
+  </td>
+  <td>105.000
+  </td>
+  <td>6 j
+  </td>
+  <td>11<a href="https://static.wikia.nocookie.net/clashofclans/images/c/ca/H%C3%B4tel_de_ville_niv11.png/revision/latest?cb=20170529110435&amp;path-prefix=fr" class="image" title="HDV11"><img alt="HDV11" src="https://static.wikia.nocookie.net/clashofclans/images/c/ca/H%C3%B4tel_de_ville_niv11.png/revision/latest/scale-to-width-down/30?cb=20170529110435&amp;path-prefix=fr" decoding="async" width="30" height="30" data-image-name="Hôtel de ville niv11.png" data-image-key="H%C3%B4tel_de_ville_niv11.png" data-src="https://static.wikia.nocookie.net/clashofclans/images/c/ca/H%C3%B4tel_de_ville_niv11.png/revision/latest/scale-to-width-down/30?cb=20170529110435&amp;path-prefix=fr" class=" lazyloaded"></a>
+  </td></tr>
+  <tr>
+  <th>42
+  </th>
+  <td>281
+  </td>
+  <td>337,2
+  </td>
+  <td>695
+  </td>
+  <td>4.678
+  </td>
+  <td>26 mins
+  </td>
+  <td>8
+  </td>
+  <td>110.000
+  </td>
+  <td>6 j
+  </td>
+  <td>11<a href="https://static.wikia.nocookie.net/clashofclans/images/c/ca/H%C3%B4tel_de_ville_niv11.png/revision/latest?cb=20170529110435&amp;path-prefix=fr" class="image" title="HDV11"><img alt="HDV11" src="data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D" decoding="async" width="30" height="30" data-image-name="Hôtel de ville niv11.png" data-image-key="H%C3%B4tel_de_ville_niv11.png" data-src="https://static.wikia.nocookie.net/clashofclans/images/c/ca/H%C3%B4tel_de_ville_niv11.png/revision/latest/scale-to-width-down/30?cb=20170529110435&amp;path-prefix=fr" class="lazyload"></a>
+  </td></tr>
+  <tr>
+  <th>43
+  </th>
+  <td>287
+  </td>
+  <td>344,4
+  </td>
+  <td>701
+  </td>
+  <td>4.795
+  </td>
+  <td>26 mins
+  </td>
+  <td>8
+  </td>
+  <td>120.000
+  </td>
+  <td>6 j
+  </td>
+  <td>11<a href="https://static.wikia.nocookie.net/clashofclans/images/c/ca/H%C3%B4tel_de_ville_niv11.png/revision/latest?cb=20170529110435&amp;path-prefix=fr" class="image" title="HDV11"><img alt="HDV11" src="data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D" decoding="async" width="30" height="30" data-image-name="Hôtel de ville niv11.png" data-image-key="H%C3%B4tel_de_ville_niv11.png" data-src="https://static.wikia.nocookie.net/clashofclans/images/c/ca/H%C3%B4tel_de_ville_niv11.png/revision/latest/scale-to-width-down/30?cb=20170529110435&amp;path-prefix=fr" class="lazyload"></a>
+  </td></tr>
+  <tr>
+  <th>44
+  </th>
+  <td>293
+  </td>
+  <td>351,6
+  </td>
+  <td>707
+  </td>
+  <td>4.915
+  </td>
+  <td>26 mins
+  </td>
+  <td>8
+  </td>
+  <td>130.000
+  </td>
+  <td>6 j
+  </td>
+  <td>11<a href="https://static.wikia.nocookie.net/clashofclans/images/c/ca/H%C3%B4tel_de_ville_niv11.png/revision/latest?cb=20170529110435&amp;path-prefix=fr" class="image" title="HDV11"><img alt="HDV11" src="data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D" decoding="async" width="30" height="30" data-image-name="Hôtel de ville niv11.png" data-image-key="H%C3%B4tel_de_ville_niv11.png" data-src="https://static.wikia.nocookie.net/clashofclans/images/c/ca/H%C3%B4tel_de_ville_niv11.png/revision/latest/scale-to-width-down/30?cb=20170529110435&amp;path-prefix=fr" class="lazyload"></a>
+  </td></tr>
+  <tr>
+  <th>45
+  </th>
+  <td>299
+  </td>
+  <td>358,8
+  </td>
+  <td>777
+  </td>
+  <td>5.038
+  </td>
+  <td>28 mins
+  </td>
+  <td>9
+  </td>
+  <td>140.000
+  </td>
+  <td>6 j 12 h
+  </td>
+  <td>11<a href="https://static.wikia.nocookie.net/clashofclans/images/c/ca/H%C3%B4tel_de_ville_niv11.png/revision/latest?cb=20170529110435&amp;path-prefix=fr" class="image" title="HDV11"><img alt="HDV11" src="data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D" decoding="async" width="30" height="30" data-image-name="Hôtel de ville niv11.png" data-image-key="H%C3%B4tel_de_ville_niv11.png" data-src="https://static.wikia.nocookie.net/clashofclans/images/c/ca/H%C3%B4tel_de_ville_niv11.png/revision/latest/scale-to-width-down/30?cb=20170529110435&amp;path-prefix=fr" class="lazyload"></a>
+  </td></tr>
+  <tr>
+  <th>46
+  </th>
+  <td>305
+  </td>
+  <td>366
+  </td>
+  <td>783
+  </td>
+  <td>5.164
+  </td>
+  <td>28 mins
+  </td>
+  <td>9
+  </td>
+  <td>150.000
+  </td>
+  <td>6 j 12 h
+  </td>
+  <td>11<a href="https://static.wikia.nocookie.net/clashofclans/images/c/ca/H%C3%B4tel_de_ville_niv11.png/revision/latest?cb=20170529110435&amp;path-prefix=fr" class="image" title="HDV11"><img alt="HDV11" src="data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D" decoding="async" width="30" height="30" data-image-name="Hôtel de ville niv11.png" data-image-key="H%C3%B4tel_de_ville_niv11.png" data-src="https://static.wikia.nocookie.net/clashofclans/images/c/ca/H%C3%B4tel_de_ville_niv11.png/revision/latest/scale-to-width-down/30?cb=20170529110435&amp;path-prefix=fr" class="lazyload"></a>
+  </td></tr>
+  <tr>
+  <th>47
+  </th>
+  <td>312
+  </td>
+  <td>374,4
+  </td>
+  <td>790
+  </td>
+  <td>5.293
+  </td>
+  <td>28 mins
+  </td>
+  <td>9
+  </td>
+  <td>160.000
+  </td>
+  <td>6 j 12 h
+  </td>
+  <td>11<a href="https://static.wikia.nocookie.net/clashofclans/images/c/ca/H%C3%B4tel_de_ville_niv11.png/revision/latest?cb=20170529110435&amp;path-prefix=fr" class="image" title="HDV11"><img alt="HDV11" src="data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D" decoding="async" width="30" height="30" data-image-name="Hôtel de ville niv11.png" data-image-key="H%C3%B4tel_de_ville_niv11.png" data-src="https://static.wikia.nocookie.net/clashofclans/images/c/ca/H%C3%B4tel_de_ville_niv11.png/revision/latest/scale-to-width-down/30?cb=20170529110435&amp;path-prefix=fr" class="lazyload"></a>
+  </td></tr>
+  <tr>
+  <th>48
+  </th>
+  <td>318
+  </td>
+  <td>381,6
+  </td>
+  <td>796
+  </td>
+  <td>5.425
+  </td>
+  <td>28 mins
+  </td>
+  <td>9
+  </td>
+  <td>170.000
+  </td>
+  <td>6 j 12 h
+  </td>
+  <td>11<a href="https://static.wikia.nocookie.net/clashofclans/images/c/ca/H%C3%B4tel_de_ville_niv11.png/revision/latest?cb=20170529110435&amp;path-prefix=fr" class="image" title="HDV11"><img alt="HDV11" src="data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D" decoding="async" width="30" height="30" data-image-name="Hôtel de ville niv11.png" data-image-key="H%C3%B4tel_de_ville_niv11.png" data-src="https://static.wikia.nocookie.net/clashofclans/images/c/ca/H%C3%B4tel_de_ville_niv11.png/revision/latest/scale-to-width-down/30?cb=20170529110435&amp;path-prefix=fr" class="lazyload"></a>
+  </td></tr>
+  <tr>
+  <th>49
+  </th>
+  <td>325
+  </td>
+  <td>390
+  </td>
+  <td>803
+  </td>
+  <td>5.561
+  </td>
+  <td>28 mins
+  </td>
+  <td>9
+  </td>
+  <td>180.000
+  </td>
+  <td>6 j 12 h
+  </td>
+  <td>11<a href="https://static.wikia.nocookie.net/clashofclans/images/c/ca/H%C3%B4tel_de_ville_niv11.png/revision/latest?cb=20170529110435&amp;path-prefix=fr" class="image" title="HDV11"><img alt="HDV11" src="data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D" decoding="async" width="30" height="30" data-image-name="Hôtel de ville niv11.png" data-image-key="H%C3%B4tel_de_ville_niv11.png" data-src="https://static.wikia.nocookie.net/clashofclans/images/c/ca/H%C3%B4tel_de_ville_niv11.png/revision/latest/scale-to-width-down/30?cb=20170529110435&amp;path-prefix=fr" class="lazyload"></a>
+  </td></tr>
+  <tr>
+  <th>50
+  </th>
+  <td>332
+  </td>
+  <td>398,4
+  </td>
+  <td>878
+  </td>
+  <td>5.700
+  </td>
+  <td>30 mins
+  </td>
+  <td>10
+  </td>
+  <td>190.000
+  </td>
+  <td>6 j 12 h
+  </td>
+  <td>11<a href="https://static.wikia.nocookie.net/clashofclans/images/c/ca/H%C3%B4tel_de_ville_niv11.png/revision/latest?cb=20170529110435&amp;path-prefix=fr" class="image" title="HDV11"><img alt="HDV11" src="data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D" decoding="async" width="30" height="30" data-image-name="Hôtel de ville niv11.png" data-image-key="H%C3%B4tel_de_ville_niv11.png" data-src="https://static.wikia.nocookie.net/clashofclans/images/c/ca/H%C3%B4tel_de_ville_niv11.png/revision/latest/scale-to-width-down/30?cb=20170529110435&amp;path-prefix=fr" class="lazyload"></a>
+  </td></tr>
+  <tr>
+  <th>51
+  </th>
+  <td>339
+  </td>
+  <td>406,8
+  </td>
+  <td>885
+  </td>
+  <td>5.843
+  </td>
+  <td>30 mins
+  </td>
+  <td>10
+  </td>
+  <td>200.000
+  </td>
+  <td>7 j
+  </td>
+  <td>12<a href="https://static.wikia.nocookie.net/clashofclans/images/a/ae/H%C3%B4tel_de_ville_niv12.png/revision/latest?cb=20180620185912&amp;path-prefix=fr" class="image" title="HDV12"><img alt="HDV12" src="data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D" decoding="async" width="30" height="30" data-image-name="Hôtel de ville niv12.png" data-image-key="H%C3%B4tel_de_ville_niv12.png" data-src="https://static.wikia.nocookie.net/clashofclans/images/a/ae/H%C3%B4tel_de_ville_niv12.png/revision/latest/scale-to-width-down/30?cb=20180620185912&amp;path-prefix=fr" class="lazyload"></a>
+  </td></tr>
+  <tr>
+  <th>52
+  </th>
+  <td>346
+  </td>
+  <td>415,2
+  </td>
+  <td>892
+  </td>
+  <td>5.990
+  </td>
+  <td>30 mins
+  </td>
+  <td>10
+  </td>
+  <td>203.000
+  </td>
+  <td>7 j
+  </td>
+  <td>12<a href="https://static.wikia.nocookie.net/clashofclans/images/a/ae/H%C3%B4tel_de_ville_niv12.png/revision/latest?cb=20180620185912&amp;path-prefix=fr" class="image" title="HDV12"><img alt="HDV12" src="data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D" decoding="async" width="30" height="30" data-image-name="Hôtel de ville niv12.png" data-image-key="H%C3%B4tel_de_ville_niv12.png" data-src="https://static.wikia.nocookie.net/clashofclans/images/a/ae/H%C3%B4tel_de_ville_niv12.png/revision/latest/scale-to-width-down/30?cb=20180620185912&amp;path-prefix=fr" class="lazyload"></a>
+  </td></tr>
+  <tr>
+  <th>53
+  </th>
+  <td>353
+  </td>
+  <td>423,6
+  </td>
+  <td>899
+  </td>
+  <td>6.140
+  </td>
+  <td>30 mins
+  </td>
+  <td>10
+  </td>
+  <td>206.000
+  </td>
+  <td>7 j
+  </td>
+  <td>12<a href="https://static.wikia.nocookie.net/clashofclans/images/a/ae/H%C3%B4tel_de_ville_niv12.png/revision/latest?cb=20180620185912&amp;path-prefix=fr" class="image" title="HDV12"><img alt="HDV12" src="data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D" decoding="async" width="30" height="30" data-image-name="Hôtel de ville niv12.png" data-image-key="H%C3%B4tel_de_ville_niv12.png" data-src="https://static.wikia.nocookie.net/clashofclans/images/a/ae/H%C3%B4tel_de_ville_niv12.png/revision/latest/scale-to-width-down/30?cb=20180620185912&amp;path-prefix=fr" class="lazyload"></a>
+  </td></tr>
+  <tr>
+  <th>54
+  </th>
+  <td>361
+  </td>
+  <td>433,2
+  </td>
+  <td>907
+  </td>
+  <td>6.294
+  </td>
+  <td>30 mins
+  </td>
+  <td>10
+  </td>
+  <td>209.000
+  </td>
+  <td>7 j
+  </td>
+  <td>12<a href="https://static.wikia.nocookie.net/clashofclans/images/a/ae/H%C3%B4tel_de_ville_niv12.png/revision/latest?cb=20180620185912&amp;path-prefix=fr" class="image" title="HDV12"><img alt="HDV12" src="data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D" decoding="async" width="30" height="30" data-image-name="Hôtel de ville niv12.png" data-image-key="H%C3%B4tel_de_ville_niv12.png" data-src="https://static.wikia.nocookie.net/clashofclans/images/a/ae/H%C3%B4tel_de_ville_niv12.png/revision/latest/scale-to-width-down/30?cb=20180620185912&amp;path-prefix=fr" class="lazyload"></a>
+  </td></tr>
+  <tr>
+  <th>55
+  </th>
+  <td>369
+  </td>
+  <td>442,8
+  </td>
+  <td>987
+  </td>
+  <td>6.452
+  </td>
+  <td>32 mins
+  </td>
+  <td>11
+  </td>
+  <td>212.000
+  </td>
+  <td>7 j
+  </td>
+  <td>12<a href="https://static.wikia.nocookie.net/clashofclans/images/a/ae/H%C3%B4tel_de_ville_niv12.png/revision/latest?cb=20180620185912&amp;path-prefix=fr" class="image" title="HDV12"><img alt="HDV12" src="data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D" decoding="async" width="30" height="30" data-image-name="Hôtel de ville niv12.png" data-image-key="H%C3%B4tel_de_ville_niv12.png" data-src="https://static.wikia.nocookie.net/clashofclans/images/a/ae/H%C3%B4tel_de_ville_niv12.png/revision/latest/scale-to-width-down/30?cb=20180620185912&amp;path-prefix=fr" class="lazyload"></a>
+  </td></tr>
+  <tr>
+  <th>56
+  </th>
+  <td>377
+  </td>
+  <td>452,4
+  </td>
+  <td>995
+  </td>
+  <td>6.614
+  </td>
+  <td>32 mins
+  </td>
+  <td>11
+  </td>
+  <td>215.000
+  </td>
+  <td>7 j
+  </td>
+  <td>12<a href="https://static.wikia.nocookie.net/clashofclans/images/a/ae/H%C3%B4tel_de_ville_niv12.png/revision/latest?cb=20180620185912&amp;path-prefix=fr" class="image" title="HDV12"><img alt="HDV12" src="data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D" decoding="async" width="30" height="30" data-image-name="Hôtel de ville niv12.png" data-image-key="H%C3%B4tel_de_ville_niv12.png" data-src="https://static.wikia.nocookie.net/clashofclans/images/a/ae/H%C3%B4tel_de_ville_niv12.png/revision/latest/scale-to-width-down/30?cb=20180620185912&amp;path-prefix=fr" class="lazyload"></a>
+  </td></tr>
+  <tr>
+  <th>57
+  </th>
+  <td>385
+  </td>
+  <td>462
+  </td>
+  <td>1.003
+  </td>
+  <td>6.780
+  </td>
+  <td>32 mins
+  </td>
+  <td>11
+  </td>
+  <td>218.000
+  </td>
+  <td>7 j
+  </td>
+  <td>12<a href="https://static.wikia.nocookie.net/clashofclans/images/a/ae/H%C3%B4tel_de_ville_niv12.png/revision/latest?cb=20180620185912&amp;path-prefix=fr" class="image" title="HDV12"><img alt="HDV12" src="data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D" decoding="async" width="30" height="30" data-image-name="Hôtel de ville niv12.png" data-image-key="H%C3%B4tel_de_ville_niv12.png" data-src="https://static.wikia.nocookie.net/clashofclans/images/a/ae/H%C3%B4tel_de_ville_niv12.png/revision/latest/scale-to-width-down/30?cb=20180620185912&amp;path-prefix=fr" class="lazyload"></a>
+  </td></tr>
+  <tr>
+  <th>58
+  </th>
+  <td>393
+  </td>
+  <td>471,6
+  </td>
+  <td>1.011
+  </td>
+  <td>6.950
+  </td>
+  <td>32 mins
+  </td>
+  <td>11
+  </td>
+  <td>221.000
+  </td>
+  <td>7 j
+  </td>
+  <td>12<a href="https://static.wikia.nocookie.net/clashofclans/images/a/ae/H%C3%B4tel_de_ville_niv12.png/revision/latest?cb=20180620185912&amp;path-prefix=fr" class="image" title="HDV12"><img alt="HDV12" src="data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D" decoding="async" width="30" height="30" data-image-name="Hôtel de ville niv12.png" data-image-key="H%C3%B4tel_de_ville_niv12.png" data-src="https://static.wikia.nocookie.net/clashofclans/images/a/ae/H%C3%B4tel_de_ville_niv12.png/revision/latest/scale-to-width-down/30?cb=20180620185912&amp;path-prefix=fr" class="lazyload"></a>
+  </td></tr>
+  <tr>
+  <th>59
+  </th>
+  <td>401
+  </td>
+  <td>481,2
+  </td>
+  <td>1.019
+  </td>
+  <td>7.124
+  </td>
+  <td>32 mins
+  </td>
+  <td>11
+  </td>
+  <td>224.000
+  </td>
+  <td>7 j
+  </td>
+  <td>12<a href="https://static.wikia.nocookie.net/clashofclans/images/a/ae/H%C3%B4tel_de_ville_niv12.png/revision/latest?cb=20180620185912&amp;path-prefix=fr" class="image" title="HDV12"><img alt="HDV12" src="data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D" decoding="async" width="30" height="30" data-image-name="Hôtel de ville niv12.png" data-image-key="H%C3%B4tel_de_ville_niv12.png" data-src="https://static.wikia.nocookie.net/clashofclans/images/a/ae/H%C3%B4tel_de_ville_niv12.png/revision/latest/scale-to-width-down/30?cb=20180620185912&amp;path-prefix=fr" class="lazyload"></a>
+  </td></tr>
+  <tr>
+  <th>60
+  </th>
+  <td>410
+  </td>
+  <td>492
+  </td>
+  <td>1.028
+  </td>
+  <td>7.303
+  </td>
+  <td>34 mins
+  </td>
+  <td>12
+  </td>
+  <td>227.000
+  </td>
+  <td>7 j
+  </td>
+  <td>12<a href="https://static.wikia.nocookie.net/clashofclans/images/a/ae/H%C3%B4tel_de_ville_niv12.png/revision/latest?cb=20180620185912&amp;path-prefix=fr" class="image" title="HDV12"><img alt="HDV12" src="data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D" decoding="async" width="30" height="30" data-image-name="Hôtel de ville niv12.png" data-image-key="H%C3%B4tel_de_ville_niv12.png" data-src="https://static.wikia.nocookie.net/clashofclans/images/a/ae/H%C3%B4tel_de_ville_niv12.png/revision/latest/scale-to-width-down/30?cb=20180620185912&amp;path-prefix=fr" class="lazyload"></a>
+  </td></tr>
+  <tr>
+  <th>61
+  </th>
+  <td>418
+  </td>
+  <td>501,6
+  </td>
+  <td>1.112
+  </td>
+  <td>7.486
+  </td>
+  <td>34 mins
+  </td>
+  <td>12
+  </td>
+  <td>230.000
+  </td>
+  <td>7 j
+  </td>
+  <td>12<a href="https://static.wikia.nocookie.net/clashofclans/images/a/ae/H%C3%B4tel_de_ville_niv12.png/revision/latest?cb=20180620185912&amp;path-prefix=fr" class="image" title="HDV12"><img alt="HDV12" src="data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D" decoding="async" width="30" height="30" data-image-name="Hôtel de ville niv12.png" data-image-key="H%C3%B4tel_de_ville_niv12.png" data-src="https://static.wikia.nocookie.net/clashofclans/images/a/ae/H%C3%B4tel_de_ville_niv12.png/revision/latest/scale-to-width-down/30?cb=20180620185912&amp;path-prefix=fr" class="lazyload"></a>
+  </td></tr>
+  <tr>
+  <th>62
+  </th>
+  <td>426
+  </td>
+  <td>511,2
+  </td>
+  <td>1.120
+  </td>
+  <td>7.673
+  </td>
+  <td>34 mins
+  </td>
+  <td>12
+  </td>
+  <td>233.000
+  </td>
+  <td>7 j
+  </td>
+  <td>12<a href="https://static.wikia.nocookie.net/clashofclans/images/a/ae/H%C3%B4tel_de_ville_niv12.png/revision/latest?cb=20180620185912&amp;path-prefix=fr" class="image" title="HDV12"><img alt="HDV12" src="data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D" decoding="async" width="30" height="30" data-image-name="Hôtel de ville niv12.png" data-image-key="H%C3%B4tel_de_ville_niv12.png" data-src="https://static.wikia.nocookie.net/clashofclans/images/a/ae/H%C3%B4tel_de_ville_niv12.png/revision/latest/scale-to-width-down/30?cb=20180620185912&amp;path-prefix=fr" class="lazyload"></a>
+  </td></tr>
+  <tr>
+  <th>63
+  </th>
+  <td>435
+  </td>
+  <td>522
+  </td>
+  <td>1.129
+  </td>
+  <td>7.865
+  </td>
+  <td>34 mins
+  </td>
+  <td>12
+  </td>
+  <td>236.000
+  </td>
+  <td>7 j
+  </td>
+  <td>12<a href="https://static.wikia.nocookie.net/clashofclans/images/a/ae/H%C3%B4tel_de_ville_niv12.png/revision/latest?cb=20180620185912&amp;path-prefix=fr" class="image" title="HDV12"><img alt="HDV12" src="data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D" decoding="async" width="30" height="30" data-image-name="Hôtel de ville niv12.png" data-image-key="H%C3%B4tel_de_ville_niv12.png" data-src="https://static.wikia.nocookie.net/clashofclans/images/a/ae/H%C3%B4tel_de_ville_niv12.png/revision/latest/scale-to-width-down/30?cb=20180620185912&amp;path-prefix=fr" class="lazyload"></a>
+  </td></tr>
+  <tr>
+  <th>64
+  </th>
+  <td>444
+  </td>
+  <td>532,8
+  </td>
+  <td>1.138
+  </td>
+  <td>8.062
+  </td>
+  <td>34 mins
+  </td>
+  <td>12
+  </td>
+  <td>239.000
+  </td>
+  <td>7 j
+  </td>
+  <td>12<a href="https://static.wikia.nocookie.net/clashofclans/images/a/ae/H%C3%B4tel_de_ville_niv12.png/revision/latest?cb=20180620185912&amp;path-prefix=fr" class="image" title="HDV12"><img alt="HDV12" src="data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D" decoding="async" width="30" height="30" data-image-name="Hôtel de ville niv12.png" data-image-key="H%C3%B4tel_de_ville_niv12.png" data-src="https://static.wikia.nocookie.net/clashofclans/images/a/ae/H%C3%B4tel_de_ville_niv12.png/revision/latest/scale-to-width-down/30?cb=20180620185912&amp;path-prefix=fr" class="lazyload"></a>
+  </td></tr>
+  <tr>
+  <th>65
+  </th>
+  <td>453
+  </td>
+  <td>543,6
+  </td>
+  <td>1.223
+  </td>
+  <td>8.264
+  </td>
+  <td>36 mins
+  </td>
+  <td>13
+  </td>
+  <td>240.000
+  </td>
+  <td>7 j
+  </td>
+  <td>12<a href="https://static.wikia.nocookie.net/clashofclans/images/a/ae/H%C3%B4tel_de_ville_niv12.png/revision/latest?cb=20180620185912&amp;path-prefix=fr" class="image" title="HDV12"><img alt="HDV12" src="data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D" decoding="async" width="30" height="30" data-image-name="Hôtel de ville niv12.png" data-image-key="H%C3%B4tel_de_ville_niv12.png" data-src="https://static.wikia.nocookie.net/clashofclans/images/a/ae/H%C3%B4tel_de_ville_niv12.png/revision/latest/scale-to-width-down/30?cb=20180620185912&amp;path-prefix=fr" class="lazyload"></a>
+  </td></tr>
+  <tr>
+  <th>66
+  </th>
+  <td>462
+  </td>
+  <td>554,4
+  </td>
+  <td>1.232
+  </td>
+  <td>8.470
+  </td>
+  <td>36 mins
+  </td>
+  <td>13
+  </td>
+  <td>250.000
+  </td>
+  <td>7 j 12h
+  </td>
+  <td>13<a href="https://static.wikia.nocookie.net/clashofclans/images/b/b5/Hotel-de-ville-13-1.png/revision/latest?cb=20200111213045&amp;path-prefix=fr" class="image" title="HDV13"><img alt="HDV13" src="data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D" decoding="async" width="30" height="33" data-image-name="Hotel-de-ville-13-1.png" data-image-key="Hotel-de-ville-13-1.png" data-src="https://static.wikia.nocookie.net/clashofclans/images/b/b5/Hotel-de-ville-13-1.png/revision/latest/scale-to-width-down/30?cb=20200111213045&amp;path-prefix=fr" class="lazyload"></a>
+  </td></tr>
+  <tr>
+  <th>67
+  </th>
+  <td>471
+  </td>
+  <td>565,2
+  </td>
+  <td>1.241
+  </td>
+  <td>8.680
+  </td>
+  <td>36 mins
+  </td>
+  <td>13
+  </td>
+  <td>260.000
+  </td>
+  <td>7 j 12 h
+  </td>
+  <td>13<a href="https://static.wikia.nocookie.net/clashofclans/images/b/b5/Hotel-de-ville-13-1.png/revision/latest?cb=20200111213045&amp;path-prefix=fr" class="image" title="HDV13"><img alt="HDV13" src="data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D" decoding="async" width="30" height="33" data-image-name="Hotel-de-ville-13-1.png" data-image-key="Hotel-de-ville-13-1.png" data-src="https://static.wikia.nocookie.net/clashofclans/images/b/b5/Hotel-de-ville-13-1.png/revision/latest/scale-to-width-down/30?cb=20200111213045&amp;path-prefix=fr" class="lazyload"></a>
+  </td></tr>
+  <tr>
+  <th>68
+  </th>
+  <td>480
+  </td>
+  <td>576
+  </td>
+  <td>1.250
+  </td>
+  <td>8.890
+  </td>
+  <td>36 mins
+  </td>
+  <td>13
+  </td>
+  <td>270.000
+  </td>
+  <td>7 j 12 h
+  </td>
+  <td>13<a href="https://static.wikia.nocookie.net/clashofclans/images/b/b5/Hotel-de-ville-13-1.png/revision/latest?cb=20200111213045&amp;path-prefix=fr" class="image" title="HDV13"><img alt="HDV13" src="data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D" decoding="async" width="30" height="33" data-image-name="Hotel-de-ville-13-1.png" data-image-key="Hotel-de-ville-13-1.png" data-src="https://static.wikia.nocookie.net/clashofclans/images/b/b5/Hotel-de-ville-13-1.png/revision/latest/scale-to-width-down/30?cb=20200111213045&amp;path-prefix=fr" class="lazyload"></a>
+  </td></tr>
+  <tr>
+  <th>69
+  </th>
+  <td>490
+  </td>
+  <td>588
+  </td>
+  <td>1.260
+  </td>
+  <td>9.100
+  </td>
+  <td>36 mins
+  </td>
+  <td>13
+  </td>
+  <td>280.000
+  </td>
+  <td>7 j 12 h
+  </td>
+  <td>13<a href="https://static.wikia.nocookie.net/clashofclans/images/b/b5/Hotel-de-ville-13-1.png/revision/latest?cb=20200111213045&amp;path-prefix=fr" class="image" title="HDV13"><img alt="HDV13" src="data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D" decoding="async" width="30" height="33" data-image-name="Hotel-de-ville-13-1.png" data-image-key="Hotel-de-ville-13-1.png" data-src="https://static.wikia.nocookie.net/clashofclans/images/b/b5/Hotel-de-ville-13-1.png/revision/latest/scale-to-width-down/30?cb=20200111213045&amp;path-prefix=fr" class="lazyload"></a>
+  </td></tr>
+  <tr>
+  <th>70
+  </th>
+  <td>500
+  </td>
+  <td>600
+  </td>
+  <td>1.346
+  </td>
+  <td>9.300
+  </td>
+  <td>38 mins
+  </td>
+  <td>14
+  </td>
+  <td>290.000
+  </td>
+  <td>8 j
+  </td>
+  <td>13<a href="https://static.wikia.nocookie.net/clashofclans/images/b/b5/Hotel-de-ville-13-1.png/revision/latest?cb=20200111213045&amp;path-prefix=fr" class="image" title="HDV13"><img alt="HDV13" src="data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D" decoding="async" width="30" height="33" data-image-name="Hotel-de-ville-13-1.png" data-image-key="Hotel-de-ville-13-1.png" data-src="https://static.wikia.nocookie.net/clashofclans/images/b/b5/Hotel-de-ville-13-1.png/revision/latest/scale-to-width-down/30?cb=20200111213045&amp;path-prefix=fr" class="lazyload"></a>
+  </td></tr>
+  <tr>
+  <th>71
+  </th>
+  <td>510
+  </td>
+  <td>612
+  </td>
+  <td>1.356
+  </td>
+  <td>9.500
+  </td>
+  <td>38 mins
+  </td>
+  <td>14
+  </td>
+  <td>292.000
+  </td>
+  <td>8 j
+  </td>
+  <td>13<a href="https://static.wikia.nocookie.net/clashofclans/images/b/b5/Hotel-de-ville-13-1.png/revision/latest?cb=20200111213045&amp;path-prefix=fr" class="image" title="HDV13"><img alt="HDV13" src="data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D" decoding="async" width="30" height="33" data-image-name="Hotel-de-ville-13-1.png" data-image-key="Hotel-de-ville-13-1.png" data-src="https://static.wikia.nocookie.net/clashofclans/images/b/b5/Hotel-de-ville-13-1.png/revision/latest/scale-to-width-down/30?cb=20200111213045&amp;path-prefix=fr" class="lazyload"></a>
+  </td></tr>
+  <tr>
+  <th>72
+  </th>
+  <td>520
+  </td>
+  <td>624
+  </td>
+  <td>1.366
+  </td>
+  <td>9.700
+  </td>
+  <td>38 mins
+  </td>
+  <td>14
+  </td>
+  <td>294.000
+  </td>
+  <td>8 j
+  </td>
+  <td>13<a href="https://static.wikia.nocookie.net/clashofclans/images/b/b5/Hotel-de-ville-13-1.png/revision/latest?cb=20200111213045&amp;path-prefix=fr" class="image" title="HDV13"><img alt="HDV13" src="data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D" decoding="async" width="30" height="33" data-image-name="Hotel-de-ville-13-1.png" data-image-key="Hotel-de-ville-13-1.png" data-src="https://static.wikia.nocookie.net/clashofclans/images/b/b5/Hotel-de-ville-13-1.png/revision/latest/scale-to-width-down/30?cb=20200111213045&amp;path-prefix=fr" class="lazyload"></a>
+  </td></tr>
+  <tr>
+  <th>73
+  </th>
+  <td>530
+  </td>
+  <td>636
+  </td>
+  <td>1.376
+  </td>
+  <td>9.900
+  </td>
+  <td>38 mins
+  </td>
+  <td>14
+  </td>
+  <td>296.000
+  </td>
+  <td>8 j
+  </td>
+  <td>13<a href="https://static.wikia.nocookie.net/clashofclans/images/b/b5/Hotel-de-ville-13-1.png/revision/latest?cb=20200111213045&amp;path-prefix=fr" class="image" title="HDV13"><img alt="HDV13" src="data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D" decoding="async" width="30" height="33" data-image-name="Hotel-de-ville-13-1.png" data-image-key="Hotel-de-ville-13-1.png" data-src="https://static.wikia.nocookie.net/clashofclans/images/b/b5/Hotel-de-ville-13-1.png/revision/latest/scale-to-width-down/30?cb=20200111213045&amp;path-prefix=fr" class="lazyload"></a>
+  </td></tr>
+  <tr>
+  <th>74
+  </th>
+  <td>540
+  </td>
+  <td>648
+  </td>
+  <td>1.386
+  </td>
+  <td>10.100
+  </td>
+  <td>38 mins
+  </td>
+  <td>14
+  </td>
+  <td>298.000
+  </td>
+  <td>8 j
+  </td>
+  <td>13<a href="https://static.wikia.nocookie.net/clashofclans/images/b/b5/Hotel-de-ville-13-1.png/revision/latest?cb=20200111213045&amp;path-prefix=fr" class="image" title="HDV13"><img alt="HDV13" src="data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D" decoding="async" width="30" height="33" data-image-name="Hotel-de-ville-13-1.png" data-image-key="Hotel-de-ville-13-1.png" data-src="https://static.wikia.nocookie.net/clashofclans/images/b/b5/Hotel-de-ville-13-1.png/revision/latest/scale-to-width-down/30?cb=20200111213045&amp;path-prefix=fr" class="lazyload"></a>
+  </td></tr>
+  <tr>
+  <th>75
+  </th>
+  <td>550
+  </td>
+  <td>660
+  </td>
+  <td>1.472
+  </td>
+  <td>10.300
+  </td>
+  <td>40 mins
+  </td>
+  <td>15
+  </td>
+  <td>300.000
+  </td>
+  <td>8 j
+  </td>
+  <td>13<a href="https://static.wikia.nocookie.net/clashofclans/images/b/b5/Hotel-de-ville-13-1.png/revision/latest?cb=20200111213045&amp;path-prefix=fr" class="image" title="HDV13"><img alt="HDV13" src="data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D" decoding="async" width="30" height="33" data-image-name="Hotel-de-ville-13-1.png" data-image-key="Hotel-de-ville-13-1.png" data-src="https://static.wikia.nocookie.net/clashofclans/images/b/b5/Hotel-de-ville-13-1.png/revision/latest/scale-to-width-down/30?cb=20200111213045&amp;path-prefix=fr" class="lazyload"></a>
+  </td></tr>
+  <tr>
+  <th>76
+  </th>
+  <td>559
+  </td>
+  <td>670,8
+  </td>
+  <td>1.481
+  </td>
+  <td>10.490
+  </td>
+  <td>40 mins
+  </td>
+  <td>15
+  </td>
+  <td>305.000
+  </td>
+  <td>8 j
+  </td>
+  <td>14
+  </td></tr>
+  <tr>
+  <th>77
+  </th>
+  <td>568
+  </td>
+  <td>681,6
+  </td>
+  <td>1.490
+  </td>
+  <td>10.680
+  </td>
+  <td>40 mins
+  </td>
+  <td>15
+  </td>
+  <td>310.000
+  </td>
+  <td>8 j
+  </td>
+  <td>14
+  </td></tr>
+  <tr>
+  <th>78
+  </th>
+  <td>577
+  </td>
+  <td>692,4
+  </td>
+  <td>1.499
+  </td>
+  <td>10.870
+  </td>
+  <td>40 mins
+  </td>
+  <td>15
+  </td>
+  <td>315.000
+  </td>
+  <td>8 j
+  </td>
+  <td>14
+  </td></tr>
+  <tr>
+  <th>79
+  </th>
+  <td>586
+  </td>
+  <td>703,2
+  </td>
+  <td>1.508
+  </td>
+  <td>11.060
+  </td>
+  <td>40 mins
+  </td>
+  <td>15
+  </td>
+  <td>320.000
+  </td>
+  <td>8 j
+  </td>
+  <td>14
+  </td></tr>
+  <tr>
+  <th>80
+  </th>
+  <td>595
+  </td>
+  <td>714
+  </td>
+  <td>1.585
+  </td>
+  <td>11.250
+  </td>
+  <td>42 mins
+  </td>
+  <td>16
+  </td>
+  <td>325.000
+  </td>
+  <td>8 j
+  </td>
+  <td>14
+  </td></tr></tbody></table>
 
 
 
